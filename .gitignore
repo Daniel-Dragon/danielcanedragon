@@ -1,0 +1,53 @@
+# Ignore Node.js modules
+node_modules/
+
+# Ignore build output
+wp-content/themes/dan-dragon-theme/build/
+*.log
+*.min.*
+
+# Ignore local environment files
+.env
+
+# Ignore WordPress core files
+wp-admin/
+wp-includes/
+# wp-config.php
+wp-config-sample.php
+wp-load.php
+wp-content/plugins/akismet
+wp-content/plugins/hello.php
+wp-content/plugins/index.php
+wp-content/themes/twentytwentyone
+wp-content/themes/twentytwentytwo
+wp-content/themes/twentytwentythree
+wp-content/themes/index.php
+
+# Ignore backups, cache, and logs
+*.bak
+*.swp
+*.tmp
+*.old
+*.log
+*.cache
+*.git
+
+# Ignore package-lock.json for npm
+package-lock.json
+
+# Ignore specific directories or files
+src/uploads/
+src/cache/
+src/assets/fonts/
+src/assets/images/
+src/assets/css/vendor.css
+src/assets/js/vendor.js
+src/assets/js/scripts.js
+
+# Ignore project-specific files and directories
+src/templates/*.php
+src/blocks/*/node_modules/
+src/blocks/*/build/
+src/blocks/*/assets/css/vendor.css
+src/blocks/*/assets/js/vendor.js
+src/blocks/*/assets/js/scripts.js

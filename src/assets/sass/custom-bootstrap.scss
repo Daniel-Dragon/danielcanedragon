@@ -1,0 +1,17 @@
+// Import the original Bootstrap Sass files
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+
+// Override the default Bootstrap variables
+$primary: #00b2e1;
+$secondary: #326074;
+$success: lighten($secondary, 20%);
+$info: lighten($primary, 20%);
+$warning: darken($secondary, 10%);
+$danger: darken($primary, 10%);
+$light: #f0f4f9;
+$dark: darken($secondary, 30%);
+
+$font-family-base: 'Roboto Condensed', sans-serif;
+
+// Compile the customized Bootstrap CSS
+@import '../../../node_modules/bootstrap/scss/bootstrap';
